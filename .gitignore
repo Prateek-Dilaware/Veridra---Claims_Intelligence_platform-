@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds & compiled outputs
+dist/
+*/dist/
+dist-ssr/
+*/dist-ssr/
+*.tsbuildinfo
+.turbo/
+
+# Environment files and credentials (keep .env.example tracked)
+.env
+.env.local
+.env.*.local
+*/.env
+*/.env.local
+*/.env.*.local
+!.env.example
+!*/.env.example
+
+# Antigravity agent skills & generated configs
+.agents/skills/
+skills-lock.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
